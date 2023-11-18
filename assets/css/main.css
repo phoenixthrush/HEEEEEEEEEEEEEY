@@ -1,0 +1,43 @@
+.heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Cousine';
+    letter-spacing: 5px;
+    font-size: 5vh;
+}
+
+.state-w {
+    color: black;
+    background-color: white;
+}
+
+.state-b {
+    color: white;
+    background-color: black;
+}
+
+.img-01 {
+    height: 65vh;
+    margin-top: 10vh;
+}
+
+.img-02 {
+    height: 65vh;
+    margin-top: 10vh;
+
+    position: absolute;
+    transform: rotateY(180deg);
+    right: 0;
+}
+
+/* cousine-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cousine';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Cousine/cousine-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
