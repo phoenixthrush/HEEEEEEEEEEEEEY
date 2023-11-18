@@ -33,6 +33,35 @@
     right: 0;
 }
 
+@media (orientation: landscape) {
+    .hide-rotate {
+        display: none;
+    }
+
+    .hide-element {
+        display: block;
+    }
+}
+
+@media (orientation: portrait) {
+    .hide-rotate {
+        display: block;
+    }
+
+    .hide-element {
+        display: none;
+    }
+
+    .hide-image {
+        display: none;
+    }
+
+    .rotate-text {
+        font-size: 2vh;
+        letter-spacing: normal;
+    }
+}
+
 /* cousine-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
